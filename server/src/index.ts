@@ -4,7 +4,7 @@ import { bookRouter } from './routes/blog';
 
 export const app = new Hono<{
   Bindings: {
-      DATABASE_URL: string;
+      DB: string;
       JWT_SECRET: string;
   }
 }>();
