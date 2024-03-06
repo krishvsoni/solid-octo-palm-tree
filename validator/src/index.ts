@@ -27,4 +27,5 @@ export const updatePostInput = z.object({
     content: z.string().optional(),
 });
 
+
 export type UpdatePostType = z.infer<typeof updatePostInput>;
